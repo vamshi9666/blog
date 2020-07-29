@@ -56,13 +56,14 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
+      <div >
+
+        <a style={{ marginBottom: 0, boxShadow: "none" }} href="https://twitter.com/vamshi_codes">Vamshi Krishna</a>.
+      <p    >
+          {'I build digital products for living'}
+        </p>
+      </div>
+
     </div>
   )
 }
